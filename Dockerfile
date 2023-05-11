@@ -20,4 +20,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8888
 
 # Launch Jupyter Notebook when the container starts
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=''"]
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--ServerApp.token=''"]
