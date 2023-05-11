@@ -1,0 +1,20 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter notebook kernel metadata
+**/*.ipynb.meta
+
+# Python virtual environment
+venv/
+
+# Compiled Python files
+*.pyc
+
+# Log files
+*.log
+
+# JupyterLab workspace settings
+.jupyter/lab/workspaces/
+
+# Ignore the .DS_Store files created by macOS
+.DS_Store
